@@ -1,0 +1,10 @@
+web:
+  container_name: webpack-react-tutorial
+  build: .
+  ports:
+  - "8000:3333"
+  volumes:
+  - ./src:/development/src
+  environment:
+  - PORT=3333
+  - MODE=development
