@@ -24,9 +24,9 @@ class FormContainer extends Component {
           <p style={{fontFamily: "courier"}}>{someText}</p>
           <Input
               text="Some text"
-              label="some-text"
+              label="someText"
               type="text"
-              id="some-text"
+              id="someText"
               value={someText}
               handleChange={this.handleChange}
           />
