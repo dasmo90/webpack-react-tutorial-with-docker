@@ -16,4 +16,4 @@ You may need a local copy of the `node_modules` folder for development. With the
 you can copy it to your host.
 
 1. Start the development server as described in (1) by following steps 1. and 2.
-2. Run `docker webpack-react-tutorial:/development/node_modules node_modules`
+2. Run `docker cp webpack-react-tutorial:/development/node_modules node_modules`
